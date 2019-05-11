@@ -1,7 +1,20 @@
 # p2s
 Post a message using webhook to slack 
 
+## Env:
+linux x86_64
+
+```
+$ GOOS=linux GOARCH=amd64 go build
+```
+
 ## Usage
+
+- GET
+
+```
+$ go get -u github.com/Bentham3314/p2s
+```
 
 - SET environment variable
 
